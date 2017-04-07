@@ -42,5 +42,3 @@ if __name__ == '__main__':
     scaning(host, dict)
     # scan(host, dict)
 
-
-
