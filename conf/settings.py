@@ -25,3 +25,21 @@ START_STR = r'''
 
                                      By TurtleMan
 '''
+
+ALLOW_INPUTS = ['domain', 'ip']
+
+# path configure
+dirname = os.path.dirname
+abspath = os.path.abspath
+join = os.path.join
+
+# root path
+ROOT_PATH = dirname(dirname(abspath(__file__)))
+
+# log path
+LOG_OPPOSITE_PATH = 'log'
+LOG_PATH = join(ROOT_PATH, LOG_OPPOSITE_PATH)
+
+# dicts path
+DICT_OPPOSITE_PATH = 'dict'
+DICT_PATH = join(ROOT_PATH, DICT_OPPOSITE_PATH)
